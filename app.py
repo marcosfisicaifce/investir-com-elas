@@ -244,12 +244,7 @@ def main():
         Promover a educação financeira é essencial para capacitar indivíduos a tomarem decisões informadas sobre seus investimentos. Um mercado financeiro mais inclusivo e diversificado beneficia a todos, trazendo diferentes perspectivas e promovendo a inovação.
         """)
 
-        # Botão para ir ao simulador
-        if st.button("Ir para o Simulador"):
-            st.session_state['pagina'] = "Simulador de Portfólio"
-            st.experimental_rerun()
-
-        st.markdown('</div>', unsafe_allow_html=True)
+       
 
     elif escolha == "Simulador de Portfólio":
         st.session_state['pagina'] = 'Simulador de Portfólio'
