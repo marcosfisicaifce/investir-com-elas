@@ -287,7 +287,7 @@ def main():
 
                 investimento_total = float(investimento_total_input)
                 num_acoes = len(codigos)
-                num_simulacoes = max(1000, num_acoes * 500)
+                num_simulacoes = max(1000, num_acoes * 5000)
 
                 dados = obter_dados_acoes(codigos)
                 if dados is None or dados.empty:
